@@ -5,9 +5,6 @@
     <?php if (have_posts()) : while(have_posts()): the_post();?>
         <?php the_content();?>
     <?php endwhile; endif;?>
-
-    <!-- <button>Contact Me</button> -->
-    <button type="button" class="btn btn-dark">contact me</button>
 </div>
 
 <?php get_footer();?>

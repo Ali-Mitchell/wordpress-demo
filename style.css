@@ -55,27 +55,3 @@ ul {
   justify-content: center;
 
 }
-
-
-/* button {
-  color:white;
-  background-color: black ;
-  border-radius: 4px;
-  border:none;
-  padding:5px;
-} */
-
-
-.btn {
-  background-color: black;
-  font-size: 14px;
-  padding: 10px 20px 10px 20px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.btn:hover {
-  background-color: red;
-}
