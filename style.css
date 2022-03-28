@@ -1,0 +1,81 @@
+/* Theme Name: Yellow-Bucket-Demo
+Author: Alison Mitchell */
+
+body {
+    /* background: red; */
+    font-family:'Courier New', Courier, monospace
+}
+
+header {
+  background:black;
+  color:white;
+  height:75px;
+  width:100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  /* padding-left: 10%; */
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .row {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+header a {
+  text-decoration: none !important;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header a:hover {
+  color:red
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.col-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+/* button {
+  color:white;
+  background-color: black ;
+  border-radius: 4px;
+  border:none;
+  padding:5px;
+} */
+
+
+.btn {
+  background-color: black;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn:hover {
+  background-color: red;
+}
